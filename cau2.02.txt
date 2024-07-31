@@ -1,0 +1,41 @@
+Sắp Xếp Các Đồ Vật
+Hoạt Động: Sắp xếp danh sách các đồ vật theo tỷ lệ giá trị/trọng lượng giảm dần.
+Số Lượng Đồ Vật: Giả sử 
+n=3 (số lượng đồ vật).
+Thời Gian Sắp Xếp: 
+0(nlogn)
+Với n=3, thời gian sắp xếp là 
+O(3log3), tức là rất nhanh và có thể coi là hằng số trong thực tế.
+Đối với 
+n=3, sắp xếp có thể thực hiện trong thời gian ngắn, nhưng công thức tổng quát vẫn là 
+O(nlogn).
+2. Duyệt Qua Các Đồ Vật
+Hoạt Động: Duyệt qua danh sách các đồ vật một lần để chọn đồ vật và tính toán giá trị.
+Thời Gian Duyệt Qua: 
+O(n)
+Với n=3, thời gian duyệt qua là 
+O(3), tức là hằng số trong thực tế.
+Đây là một bước quan trọng, nhưng thời gian thực hiện nhanh vì số lượng đồ vật ít.
+3. Chi Tiết Các Bước
+Sắp Xếp Danh Sách Các Đồ Vật:
+Tính tỷ lệ giá trị/trọng lượng cho từng đồ vật:
+Đồ vật 1: Tỷ lệ = 60/10=6
+Đồ vật 2: Tỷ lệ = 200/20=5
+Đồ vật 3: Tỷ lệ = 120/30=4
+Sắp xếp giảm dần theo tỷ lệ: [Item(Value=60, Weight=10), Item(Value=100, Weight=20), Item(Value=120, Weight=30)].
+Duyệt Qua Danh Sách Các Đồ Vật:
+Chọn Đồ Vật 1: Trọng lượng hiện tại = 10, giá trị tổng cộng = 60.
+Chọn Đồ Vật 2: Trọng lượng hiện tại = 30, giá trị tổng cộng = 160.
+Chọn Đồ Vật 3: Chỉ còn dư trọng lượng = 20. Phần còn lại của Đồ vật 3 (trọng lượng 20/30) được chọn. Giá trị cộng thêm = 
+120
+×
+20
+30
+=
+80
+120× 
+30
+20
+​
+ =80.
+Giá trị tổng cộng: 160 + 80 = 240.

@@ -1,0 +1,6 @@
+E:\LuuDuLieuSinhVien\5_2033210489_NguyenPhiCuong_KT1\cau2\cau2\bin\Debug\cau2.exe.config
+E:\LuuDuLieuSinhVien\5_2033210489_NguyenPhiCuong_KT1\cau2\cau2\bin\Debug\cau2.exe
+E:\LuuDuLieuSinhVien\5_2033210489_NguyenPhiCuong_KT1\cau2\cau2\bin\Debug\cau2.pdb
+E:\LuuDuLieuSinhVien\5_2033210489_NguyenPhiCuong_KT1\cau2\cau2\obj\Debug\cau2.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\5_2033210489_NguyenPhiCuong_KT1\cau2\cau2\obj\Debug\cau2.exe
+E:\LuuDuLieuSinhVien\5_2033210489_NguyenPhiCuong_KT1\cau2\cau2\obj\Debug\cau2.pdb
